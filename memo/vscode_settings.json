@@ -1,0 +1,58 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.startupEditor": "none",// Welcome Page非表示
+    "workbench.editorAssociations": {"*.ipynb": "jupyter.notebook.ipynb"},
+
+    "editor.fontFamily": "Source Code Pro",// フォント設定
+    "editor.renderWhitespace": "all",// 空白文字表示
+    "editor.detectIndentation": false,
+    "editor.renderControlCharacters": true,
+    "editor.suggestSelection": "first",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true,
+    "editor.fastScrollSensitivity": 10,
+    "editor.formatOnPaste": false,
+
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",// タイトルバーにファイルのフルパスを表示する
+    "window.restoreWindows": "none",// 再起動時に開いていたウインドウをすべて復元しない
+
+    "files.hotExit": "off",// エディタ終了時にファイルの自動保存を行わない
+    "files.autoGuessEncoding": true,
+    "files.associations": {"*.hta": "vb"},
+
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.pythonPath": "/usr/local/bin/python3",
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length", "150", "--ignore=E203,W503,W504,E221"],
+
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "150"],
+
+    "[python]": {"editor.formatOnSave": true}, // Python スクリプトでだけフォーマッターを利用する設定
+    "[html]": {"editor.defaultFormatter": "mohd-akram.vscode-html-format"},
+
+    "C_Cpp.updateChannel": "Insiders",
+    "explorer.sortOrder": "type",
+    "terminal.integrated.tabs.enabled": true,
+
+    // 単語検索時の色変更設定
+    "workbench.colorCustomizations":
+    {
+        "editor.selectionBackground": "#c979f7",
+        "editor.selectionHighlightBackground": "#394185",
+        "editor.findMatchHighlightBackground": "#264eff",
+        "editor.findMatchBorder": "#ffffff",
+        "editor.findMatchBackground": "#ae00ff",
+        "minimapSlider.activeBackground": "#74d86781",
+        "minimapSlider.hoverBackground": "#74d86781",
+        "minimapSlider.background": "#74d86781"
+    },
+
+    "security.workspace.trust.untrustedFiles": "open"
+}

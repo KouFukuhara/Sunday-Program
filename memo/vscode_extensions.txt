@@ -1,0 +1,33 @@
+AREPL for python
+Bracket Highlighter
+Bracket Pair Colorizer 2
+C#
+C/C++
+Docker
+Doxygen
+GitHub Theme
+GitLens — Git supercharged
+HTML CSS Support
+HTML Format
+Iceberg
+IntelliSense for CSS class names in HTML
+Japanese Language Pack for Visual Studio Code
+Markdown PDF
+Material Icon Theme
+PowerShell
+Pylance
+Python
+Python Docstring Generator
+Python Extended
+Python Indent
+Python for VSCode
+Remote - Containers
+Remote - WSL
+Rust
+Sort
+Terminal
+Trailing Spaces
+VS Color Picker
+indent-rainbow
+markdownlint
+zenkaku
