@@ -1,9 +1,10 @@
 # ISBN を基に国会図書館のデータベースから書籍情報を取得する
 
-from bs4 import BeautifulSoup
 import time
 import urllib.request
 from collections import defaultdict
+
+from bs4 import BeautifulSoup
 
 
 def get_book_info_for_ndl(isbn: str):
